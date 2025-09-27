@@ -71,7 +71,7 @@ int main() {
     cin >> choice;
     cout << "\n\n";
     // Check for invalid inputs
-    if (choice < 0 && choice > 5) {
+    if (choice < 1 || choice > 5) {
       cout << "Invalid number, please re-enter: ";
       continue;
     }
